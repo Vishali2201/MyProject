@@ -1,0 +1,58 @@
+*{
+    border: 0px;
+    margin: 0%;
+   
+  }
+  body {
+    font-family: Ubuntu !important;
+    background-color:#fff;
+    line-height: 1.8em;
+  }
+  /* position for text at top right corner*/
+  .link-house {
+    font-size: 14px;
+    position: relative;
+    letter-spacing: 2px;
+    transition: 0.5s linear;
+    text-decoration: none;
+  }
+  /*hover on the options*/
+  .link-house:hover {
+    padding: 15px;
+    background-color:grey !important;
+  
+  }
+  .menu{
+    margin-left: 70%;
+  }
+  
+  
+  /*logo at left top corner */
+  nav .nav-logo img {
+    width: 0px;
+    height: 0px;
+    margin: 10%
+  
+  }
+  /* home main img*/
+  #home {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    min-height: 100vh;
+    background: url('https://img.freepik.com/free-photo/top-view-bunch-fresh-food-donation-with-copy-space_23-2148733835.jpg?w=900&t=st=1697019194~exp=1697019794~hmac=d41b067c26bf1f73c7b21ec61e4ad285730bce694733ef402ed0ee7f3df516ae') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+   
+  }
+  #center_content{
+    margin-bottom: 60px;
+  }
+  #center_statement{
+    margin-bottom: 60%;
+  }
+  .p3{
+    font-family: "Lucida Console" , "Courier New", monoscape;
+  }
+  
